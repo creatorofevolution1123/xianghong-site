@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>湘泓詳解網站</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+      padding: 2em;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+    }
+    button {
+      padding: 8px 14px;
+      margin-top: 15px;
+      cursor: pointer;
+      background: #444;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+    .explain {
+      background: #333;
+      color: #fff;
+      padding: 14px;
+      margin-top: 15px;
+      display: none;
+      border-radius: 8px;
+    }
+    .nav {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+    .nav a {
+      color: #66ccff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .nav a:hover {
+      text-decoration: underline;
+    }
+    .ad-box {
+      margin-top: 40px;
+      padding: 20px;
+      background: #2a2a2a;
+      border: 1px dashed #666;
+      text-align: center;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>營養師國考詳解網站</h1>
+
+  <h3>📌 題目 1：</h3>
+  <p>請於此填入第 1 題的題目敘述與選項</p>
+
+  <button onclick="document.getElementById('q1').style.display = (q1.style.display==='none')?'block':'none'">
+    👉 點我看答案與詳解
+  </button>
+  <div id="q1" class="explain">
+    ✅ 正確答案：<br>
+    🧠 詳解：請於此填入第 1 題的詳解內容。
+  </div>
+
+  <div class="nav">
+    ⬅｜<a href="q02.html">下一題 ➡</a>
+  </div>
+
+  <div class="ad-box">
+    📢 廣告區：可放聯播廣告
+  </div>
+</body>
+</html>
